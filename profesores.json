@@ -1,0 +1,514 @@
+[
+    {
+        "Cedula": 11671718,
+        "Email": "EVEGA@UNIMET.EDU.VE",
+        "Apellido": "VEGA",
+        "Nombre": "ENCARNACION",
+        "Max Carga": 1,
+        "Materias": ["FPTSP18"]
+    },
+    {
+        "Cedula": 11593482,
+        "Email": "IMUÑOZ@UNIMET.EDU.VE",
+        "Apellido": "MUÑOZ",
+        "Nombre": "IVAN",
+        "Max Carga": 1,
+        "Materias": ["FBTSP03"]
+    },
+    {
+        "Cedula": 25898922,
+        "Email": "MCAMPOS@UNIMET.EDU.VE",
+        "Apellido": "CAMPOS",
+        "Nombre": "MONTSERRAT",
+        "Max Carga": 3,
+        "Materias": ["FBTSP03","FPTSP14"]
+    },
+    {
+        "Cedula": 5420797,
+        "Email": "MPEÑA@UNIMET.EDU.VE",
+        "Apellido": "PEÑA",
+        "Nombre": "MARIA",
+        "Max Carga": 2,
+        "Materias": ["FBTSP03","FPTSP24"]
+    },
+    {
+        "Cedula": 20198198,
+        "Email": "SMENDEZ@UNIMET.EDU.VE",
+        "Apellido": "MENDEZ",
+        "Nombre": "SARA",
+        "Max Carga": 1,
+        "Materias": ["FBTSP03"]
+    },
+    {
+        "Cedula": 16329497,
+        "Email": "RRUBIO@UNIMET.EDU.VE",
+        "Apellido": "RUBIO",
+        "Nombre": "ROCIO",
+        "Max Carga": 2,
+        "Materias": ["FPTSP14"]
+    },
+    {
+        "Cedula": 21763943,
+        "Email": "IDURAN@UNIMET.EDU.VE",
+        "Apellido": "DURAN",
+        "Nombre": "IVAN",
+        "Max Carga": 3,
+        "Materias": ["FPTSP17","FPTSP19","FPTSP20","FPTSP23"]
+    },
+    {
+        "Cedula": 22477298,
+        "Email": "DFLORES@UNIMET.EDU.VE",
+        "Apellido": "FLORES",
+        "Nombre": "DAVID",
+        "Max Carga": 1,
+        "Materias": ["FPTSP22"]
+    },
+    {
+        "Cedula": 27712040,
+        "Email": "IBENITEZ@UNIMET.EDU.VE",
+        "Apellido": "BENITEZ",
+        "Nombre": "IVAN",
+        "Max Carga": 1,
+        "Materias": ["FPTSP22"]
+    },
+    {
+        "Cedula": 12504756,
+        "Email": "NVIDAL@UNIMET.EDU.VE",
+        "Apellido": "VIDAL",
+        "Nombre": "NURIA",
+        "Max Carga": 1,
+        "Materias": ["FPTSP22"]
+    },
+    {
+        "Cedula": 18148416,
+        "Email": "AMONTERO@UNIMET.EDU.VE",
+        "Apellido": "MONTERO",
+        "Nombre": "ANDRES",
+        "Max Carga": 1,
+        "Materias": ["FGESP01"]
+    },
+    {
+        "Cedula": 29384987,
+        "Email": "SMENDOZA@UNIMET.EDU.VE",
+        "Apellido": "MENDOZA",
+        "Nombre": "SARA",
+        "Max Carga": 4,
+        "Materias": ["BPTSP05","BPTSP06","FPTSP25"]
+    },
+    {
+        "Cedula": 24760089,
+        "Email": "JJIMENEZ@UNIMET.EDU.VE",
+        "Apellido": "JIMENEZ",
+        "Nombre": "JULIA",
+        "Max Carga": 1,
+        "Materias": ["BPTSP05"]
+    },
+    {
+        "Cedula": 16615153,
+        "Email": "ILORENZO@UNIMET.EDU.VE",
+        "Apellido": "LORENZO",
+        "Nombre": "IVAN",
+        "Max Carga": 1,
+        "Materias": ["BPTSP05"]
+    },
+    {
+        "Cedula": 15902683,
+        "Email": "CHIDALGO@UNIMET.EDU.VE",
+        "Apellido": "HIDALGO",
+        "Nombre": "CARMEN",
+        "Max Carga": 1,
+        "Materias": ["BPTSP05"]
+    },
+    {
+        "Cedula": 15481633,
+        "Email": "MPASCUAL@UNIMET.EDU.VE",
+        "Apellido": "PASCUAL",
+        "Nombre": "MONICA",
+        "Max Carga": 1,
+        "Materias": ["BPTSP05"]
+    },
+    {
+        "Cedula": 5337686,
+        "Email": "CVICENTE@UNIMET.EDU.VE",
+        "Apellido": "VICENTE",
+        "Nombre": "CARMEN",
+        "Max Carga": 2,
+        "Materias": ["BPTSP05","FBTSP04"]
+    },
+    {
+        "Cedula": 30494195,
+        "Email": "ACASTILLO@UNIMET.EDU.VE",
+        "Apellido": "CASTILLO",
+        "Nombre": "ALBA",
+        "Max Carga": 1,
+        "Materias": ["FGESP03"]
+    },
+    {
+        "Cedula": 5714135,
+        "Email": "MTORRES@UNIMET.EDU.VE",
+        "Apellido": "TORRES",
+        "Nombre": "MARIA",
+        "Max Carga": 2,
+        "Materias": ["FGESP03","FGESP04"]
+    },
+    {
+        "Cedula": 4503009,
+        "Email": "LGUERRERO@UNIMET.EDU.VE",
+        "Apellido": "GUERRERO",
+        "Nombre": "LAURA",
+        "Max Carga": 1,
+        "Materias": ["BPTSP06"]
+    },
+    {
+        "Cedula": 22878613,
+        "Email": "DCORTES@UNIMET.EDU.VE",
+        "Apellido": "CORTES",
+        "Nombre": "DANIEL",
+        "Max Carga": 2,
+        "Materias": ["BPTSP05","BPTSP06"]
+    },
+    {
+        "Cedula": 11260150,
+        "Email": "SLOPEZ@UNIMET.EDU.VE",
+        "Apellido": "LOPEZ",
+        "Nombre": "SANTIAGO",
+        "Max Carga": 2,
+        "Materias": ["FPTSP25"]
+    },
+    {
+        "Cedula": 25904593,
+        "Email": "JMEDINA@UNIMET.EDU.VE",
+        "Apellido": "MEDINA",
+        "Nombre": "JULIA",
+        "Max Carga": 2,
+        "Materias": ["BPTSP04"]
+    },
+    {
+        "Cedula": 8947001,
+        "Email": "VBRAVO@UNIMET.EDU.VE",
+        "Apellido": "BRAVO",
+        "Nombre": "VICENTE",
+        "Max Carga": 1,
+        "Materias": ["FPTSP20"]
+    },
+    {
+        "Cedula": 1477473,
+        "Email": "AMOYA@UNIMET.EDU.VE",
+        "Apellido": "MOYA",
+        "Nombre": "ANDREA",
+        "Max Carga": 2,
+        "Materias": ["FPTSP17","FPTSP19"]
+    },
+    {
+        "Cedula": 9546578,
+        "Email": "PCRESPO@UNIMET.EDU.VE",
+        "Apellido": "CRESPO",
+        "Nombre": "PAULA",
+        "Max Carga": 3,
+        "Materias": ["FBTSP04","FPTSP04"]
+    },
+    {
+        "Cedula": 27514241,
+        "Email": "RFERRER@UNIMET.EDU.VE",
+        "Apellido": "FERRER",
+        "Nombre": "RUBEN",
+        "Max Carga": 4,
+        "Materias": ["BPTSP05","FBTSP04","FPTSP04","FPTSP07"]
+    },
+    {
+        "Cedula": 30839944,
+        "Email": "EVAZQUEZ@UNIMET.EDU.VE",
+        "Apellido": "VAZQUEZ",
+        "Nombre": "ENRIQUE",
+        "Max Carga": 3,
+        "Materias": ["FBTSP04","FPTPS07","FPTSP07"]
+    },
+    {
+        "Cedula": 1048200,
+        "Email": "RGIL@UNIMET.EDU.VE",
+        "Apellido": "GIL",
+        "Nombre": "ROSARIO",
+        "Max Carga": 1,
+        "Materias": ["FPSSP02","FPTSP15"]
+    },
+    {
+        "Cedula": 12578821,
+        "Email": "RCALVO@UNIMET.EDU.VE",
+        "Apellido": "CALVO",
+        "Nombre": "RAMON",
+        "Max Carga": 3,
+        "Materias": ["BPTSP03","FPTSP15","FPTSP21"]
+    },
+    {
+        "Cedula": 10808595,
+        "Email": "EPASCUAL@UNIMET.EDU.VE",
+        "Apellido": "PASCUAL",
+        "Nombre": "ENRIQUE",
+        "Max Carga": 2,
+        "Materias": ["FPSSP03","FPTSP11"]
+    },
+    {
+        "Cedula": 16437847,
+        "Email": "TMORALES@UNIMET.EDU.VE",
+        "Apellido": "MORALES",
+        "Nombre": "TERESA",
+        "Max Carga": 2,
+        "Materias": ["FBTSP04"]
+    },
+    {
+        "Cedula": 25270312,
+        "Email": "SCABALLERO@UNIMET.EDU.VE",
+        "Apellido": "CABALLERO",
+        "Nombre": "SERGIO",
+        "Max Carga": 2,
+        "Materias": ["FBTSP04"]
+    },
+    {
+        "Cedula": 24827705,
+        "Email": "ICASTRO@UNIMET.EDU.VE",
+        "Apellido": "CASTRO",
+        "Nombre": "ISABEL",
+        "Max Carga": 4,
+        "Materias": ["FBTSP04","FPTSP01"]
+    },
+    {
+        "Cedula": 12615495,
+        "Email": "LRUIZ@UNIMET.EDU.VE",
+        "Apellido": "RUIZ",
+        "Nombre": "LUIS",
+        "Max Carga": 1,
+        "Materias": ["FBTSP04"]
+    },
+    {
+        "Cedula": 31577698,
+        "Email": "ASANTIAGO@UNIMET.EDU.VE",
+        "Apellido": "SANTIAGO",
+        "Nombre": "ADRIAN",
+        "Max Carga": 3,
+        "Materias": ["FBTSP04"]
+    },
+    {
+        "Cedula": 12040570,
+        "Email": "JLOZANO@UNIMET.EDU.VE",
+        "Apellido": "LOZANO",
+        "Nombre": "JOAQUIN",
+        "Max Carga": 2,
+        "Materias": ["FBTSP04","FPSSP04","FPTSP18"]
+    },
+    {
+        "Cedula": 2441340,
+        "Email": "MGIMENEZ@UNIMET.EDU.VE",
+        "Apellido": "GIMENEZ",
+        "Nombre": "MARIO",
+        "Max Carga": 2,
+        "Materias": ["FPTSP01","FPTSP26"]
+    },
+    {
+        "Cedula": 2017881,
+        "Email": "CHERNANDEZ@UNIMET.EDU.VE",
+        "Apellido": "HERNANDEZ",
+        "Nombre": "CARMEN",
+        "Max Carga": 2,
+        "Materias": ["BPTSP03"]
+    },
+    {
+        "Cedula": 30970090,
+        "Email": "IORTEGA@UNIMET.EDU.VE",
+        "Apellido": "ORTEGA",
+        "Nombre": "IVAN",
+        "Max Carga": 1,
+        "Materias": ["FPTSP14"]
+    },
+    {
+        "Cedula": 20918224,
+        "Email": "PPARRA@UNIMET.EDU.VE",
+        "Apellido": "PARRA",
+        "Nombre": "PILAR",
+        "Max Carga": 1,
+        "Materias": ["BPTSP05"]
+    },
+    {
+        "Cedula": 18011276,
+        "Email": "JVELASCO@UNIMET.EDU.VE",
+        "Apellido": "VELASCO",
+        "Nombre": "JUAN",
+        "Max Carga": 2,
+        "Materias": ["FPTSP15"]
+    },
+    {
+        "Cedula": 27403427,
+        "Email": "IVARGAS@UNIMET.EDU.VE",
+        "Apellido": "VARGAS",
+        "Nombre": "IVAN",
+        "Max Carga": 3,
+        "Materias": ["FBTSP03"]
+    },
+    {
+        "Cedula": 6207924,
+        "Email": "JIBANEZ@UNIMET.EDU.VE",
+        "Apellido": "IBAÑEZ",
+        "Nombre": "JUANA",
+        "Max Carga": 1,
+        "Materias": ["FBTSP03"]
+    },
+    {
+        "Cedula": 11079901,
+        "Email": "MNAVARRO@UNIMET.EDU.VE",
+        "Apellido": "NAVARRO",
+        "Nombre": "MARINA",
+        "Max Carga": 1,
+        "Materias": ["FPTSP22"]
+    },
+    {
+        "Cedula": 16326333,
+        "Email": "PMEDINA@UNIMET.EDU.VE",
+        "Apellido": "MEDINA",
+        "Nombre": "PILAR",
+        "Max Carga": 2,
+        "Materias": ["BPTSP04"]
+    },
+    {
+        "Cedula": 27784103,
+        "Email": "JPARDO@UNIMET.EDU.VE",
+        "Apellido": "PARDO",
+        "Nombre": "JULIA",
+        "Max Carga": 3,
+        "Materias": ["FPTSP17","FPTSP19","FPTSP20","FPTSP23"]
+    },
+    {
+        "Cedula": 31716463,
+        "Email": "ALEON@UNIMET.EDU.VE",
+        "Apellido": "LEON",
+        "Nombre": "ANTONIO",
+        "Max Carga": 3,
+        "Materias": ["FBTSP04"]
+    },
+    {
+        "Cedula": 18158477,
+        "Email": "RGALLEGO@UNIMET.EDU.VE",
+        "Apellido": "GALLEGO",
+        "Nombre": "RAUL",
+        "Max Carga": 1,
+        "Materias": ["FPSSP01","FPTSP27"]
+    },
+    {
+        "Cedula": 17915618,
+        "Email": "MPEREZ@UNIMET.EDU.VE",
+        "Apellido": "PEREZ",
+        "Nombre": "MARIA",
+        "Max Carga": 1,
+        "Materias": ["FPSSP01"]
+    },
+    {
+        "Cedula": 18966035,
+        "Email": "MMARTIN@UNIMET.EDU.VE",
+        "Apellido": "MARTIN",
+        "Nombre": "MARTA",
+        "Max Carga": 1,
+        "Materias": ["FGESP05"]
+    },
+    {
+        "Cedula": 26580983,
+        "Email": "CRIVERA@UNIMET.EDU.VE",
+        "Apellido": "RIVERA",
+        "Nombre": "CARMEN",
+        "Max Carga": 2,
+        "Materias": ["BPTSP05","FPTSP28"]
+    },
+    {
+        "Cedula": 3711954,
+        "Email": "AIGLESIAS@UNIMET.EDU.VE",
+        "Apellido": "IGLESIAS",
+        "Nombre": "ALICIA",
+        "Max Carga": 1,
+        "Materias": ["FGESP05"]
+    },
+    {
+        "Cedula": 24703671,
+        "Email": "VALONSO@UNIMET.EDU.VE",
+        "Apellido": "ALONSO",
+        "Nombre": "VICTOR",
+        "Max Carga": 2,
+        "Materias": ["BPTSP05","BPTSP06"]
+    },
+    {
+        "Cedula": 1241499,
+        "Email": "IDURAN@UNIMET.EDU.VE",
+        "Apellido": "DURAN",
+        "Nombre": "IRENE",
+        "Max Carga": 3,
+        "Materias": ["BPTSP05","FBTSP04","FGESP04","FGESP06"]
+    },
+    {
+        "Cedula": 22296416,
+        "Email": "JRAMIREZ@UNIMET.EDU.VE",
+        "Apellido": "RAMIREZ",
+        "Nombre": "JORGE",
+        "Max Carga": 1,
+        "Materias": ["FBTSP03"]
+    },
+    {
+        "Cedula": 6503596,
+        "Email": "DCANO@UNIMET.EDU.VE",
+        "Apellido": "CANO",
+        "Nombre": "DIEGO",
+        "Max Carga": 1,
+        "Materias": ["FBTSP03"]
+    },
+    {
+        "Cedula": 16125737,
+        "Email": "IDIEZ@UNIMET.EDU.VE",
+        "Apellido": "DIEZ",
+        "Nombre": "IVAN",
+        "Max Carga": 1,
+        "Materias": ["FPTSP14"]
+    },
+    {
+        "Cedula": 7561372,
+        "Email": "FGARRIDO@UNIMET.EDU.VE",
+        "Apellido": "GARRIDO",
+        "Nombre": "FRANCISCA",
+        "Max Carga": 1,
+        "Materias": ["FGESP07"]
+    },
+    {
+        "Cedula": 16251508,
+        "Email": "MDOMINGUEZ@UNIMET.EDU.VE",
+        "Apellido": "DOMINGUEZ",
+        "Nombre": "MERCEDES",
+        "Max Carga": 2,
+        "Materias": ["BPTSP05","FBTSP04"]
+    },
+    {
+        "Cedula": 16816555,
+        "Email": "HCANO@UNIMET.EDU.VE",
+        "Apellido": "CANO",
+        "Nombre": "HUGO",
+        "Max Carga": 1,
+        "Materias": ["FBTSP04"]
+    },
+    {
+        "Cedula": 30473550,
+        "Email": "FCARMONA@UNIMET.EDU.VE",
+        "Apellido": "CARMONA",
+        "Nombre": "FERNANDO",
+        "Max Carga": 1,
+        "Materias": ["FPSSP02"]
+    },
+    {
+        "Cedula": 17081682,
+        "Email": "ENIETO@UNIMET.EDU.VE",
+        "Apellido": "NIETO",
+        "Nombre": "ELENA",
+        "Max Carga": 1,
+        "Materias": ["BPTSP04"]
+    },
+    {
+        "Cedula": 22339870,
+        "Email": "JMORENO@UNIMET.EDU.VE",
+        "Apellido": "MORENO",
+        "Nombre": "JESUS",
+        "Max Carga": 1,
+        "Materias": ["FPTSP27"]
+    }
+]
