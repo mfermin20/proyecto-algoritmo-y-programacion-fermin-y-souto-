@@ -68,11 +68,7 @@ class SistemaGestor:
                 elif opcion == 4:
                     self.modificar_horarios()
                 elif opcion == 5:
-<<<<<<< Updated upstream
-                    self.mostrar_reportes_generacion()
-=======
                     self.mostrar_estadisticas()
->>>>>>> Stashed changes
                 elif opcion == 6:
                     self.guardar_horario_csv()
                 elif opcion == 7:
@@ -90,11 +86,7 @@ class SistemaGestor:
         Método auxiliar privado para realizar la petición GET y retornar el JSON.
         
         Consideraciones de eficiencia:
-<<<<<<< Updated upstream
-        - Complejidad de Tiempo: O(N) donde N es el tamaño del JSON de respuesta, más el tiempo de latencia de red.
-=======
         - Complejidad de Tiempo: O(N) donde N es el tamaño del JSON de respuesta.
->>>>>>> Stashed changes
         - Complejidad de Espacio: O(N) para almacenar la estructura de datos parseada.
         """
         respuesta = requests.get(url)
@@ -179,16 +171,9 @@ class SistemaGestor:
             print("\nError: Entrada no válida al seleccionar opciones del menú.")
         except requests.exceptions.RequestException:
             print("\nError de conexión: No se pudieron cargar las materias desde internet.")
-<<<<<<< Updated upstream
-        except KeyError:
-            print("\nError de estructura: Los datos cargados no coinciden con los atributos esperados.")
-    
-    
-=======
         except KeyError as e:
             print(f"\nError de estructura: La clave {e} no se encontró en los datos cargados.")
             
->>>>>>> Stashed changes
     def menu_profesores(self):
         """
         Submenú para la gestión de profesores.
@@ -240,13 +225,8 @@ class SistemaGestor:
         Solicita datos al usuario y añade un nuevo profesor a la lista.
         
         Consideraciones de eficiencia:
-<<<<<<< Updated upstream
-        - Complejidad de Tiempo: O(1) amortizado por el append a la lista.
-        - Complejidad de Espacio: O(1) adicional para el nuevo objeto instanciado.
-=======
         - Complejidad de Tiempo: O(1) amortizado por el append.
         - Complejidad de Espacio: O(1) adicional.
->>>>>>> Stashed changes
         """
         print("\n--- AGREGAR PROFESOR ---")
         nombre = input("Nombre: ")
@@ -360,12 +340,7 @@ class SistemaGestor:
         Elimina una materia verificando previamente si afecta a los profesores.
         
         Consideraciones de eficiencia:
-<<<<<<< Updated upstream
-        - Complejidad de Tiempo: O(P * K + M), donde P son los profesores, K las materias por profesor, 
-          y M el desplazamiento al hacer pop en la lista.
-=======
         - Complejidad de Tiempo: O(P * K + M).
->>>>>>> Stashed changes
         - Complejidad de Espacio: O(1).
         """
         self.ver_materias()
@@ -393,11 +368,7 @@ class SistemaGestor:
         Modifica el número de secciones de una materia.
         
         Consideraciones de eficiencia:
-<<<<<<< Updated upstream
-        - Complejidad de Tiempo: O(P * K) en el peor caso (si secciones == 0) para verificar las asignaciones.
-=======
         - Complejidad de Tiempo: O(P * K).
->>>>>>> Stashed changes
         - Complejidad de Espacio: O(1).
         """
         self.ver_materias()
@@ -429,13 +400,8 @@ class SistemaGestor:
         Instancia y retorna una lista estática de los bloques horarios válidos.
         
         Consideraciones de eficiencia:
-<<<<<<< Updated upstream
-        - Complejidad de Tiempo: O(1), se crean y retornan instancias predefinidas.
-        - Complejidad de Espacio: O(1), una lista pequeña y constante de bloques.
-=======
         - Complejidad de Tiempo: O(1).
         - Complejidad de Espacio: O(1).
->>>>>>> Stashed changes
         """
         return [
             BloqueHorario("Lunes y Miércoles", "7:00-8:30"),
@@ -449,20 +415,11 @@ class SistemaGestor:
         Algoritmo principal que distribuye las materias, secciones y profesores en los salones y bloques.
         
         Consideraciones de eficiencia:
-<<<<<<< Updated upstream
-        - Complejidad de Tiempo: O(M * S * B * (P * H)), donde M son materias, S secciones por materia, 
-          B bloques horarios, P profesores y H tamaño del horario actual.
-        - Complejidad de Espacio: O(B + H), diccionario auxiliar para uso de salones y la lista de secciones asignadas.
-        """
-        if not self.lista_materias or not self.lista_profesores:
-            print("Advertencia: No se puede generar el horario sin materias y profesores registrados en el sistema.")
-=======
         - Complejidad de Tiempo: O(M * S * B * (P * H)).
         - Complejidad de Espacio: O(B + H).
         """
         if not self.lista_materias or not self.lista_profesores:
             print("Advertencia: No se puede generar el horario sin materias y profesores registrados.")
->>>>>>> Stashed changes
             return
 
         self.horario_generado = []
@@ -498,19 +455,11 @@ class SistemaGestor:
 
     def _buscar_profesor_disponible(self, codigo_materia, bloque):
         """
-<<<<<<< Updated upstream
-        Verifica la viabilidad de un profesor comprobando sus materias permitidas, carga actual y choques de horario.
-        
-        Consideraciones de eficiencia:
-        - Complejidad de Tiempo: O(P * H), itera por P profesores y en cada uno verifica el tamaño del horario H.
-        - Complejidad de Espacio: O(1), solo usa variables contadoras.
-=======
         Verifica la viabilidad de un profesor comprobando sus materias permitidas, carga actual y choques.
         
         Consideraciones de eficiencia:
         - Complejidad de Tiempo: O(P * H).
         - Complejidad de Espacio: O(1).
->>>>>>> Stashed changes
         """
         for profesor in self.lista_profesores:
             if codigo_materia not in profesor.materias_permitidas:
@@ -540,13 +489,8 @@ class SistemaGestor:
         Calcula e imprime métricas estadísticas resultantes de la asignación de horarios.
         
         Consideraciones de eficiencia:
-<<<<<<< Updated upstream
-        - Complejidad de Tiempo: O(H + M + B), donde H es el tamaño del horario generado, M las materias pedidas y B los bloques.
-        - Complejidad de Espacio: O(B + M), diccionarios auxiliares para agrupar capacidades y rastrear el éxito de materias.
-=======
         - Complejidad de Tiempo: O(H + M + B).
         - Complejidad de Espacio: O(B + M).
->>>>>>> Stashed changes
         """
         if not self.horario_generado:
             print("\nNo hay horarios generados para mostrar reportes.")
@@ -580,13 +524,8 @@ class SistemaGestor:
                 materias_cerradas += 1
 
         print("\n--- REPORTE ESTADÍSTICO DE GENERACIÓN ---")
-<<<<<<< Updated upstream
-        print(f"Secciones huérfanas (falta de profesores calificados/disponibles): {secciones_huerfanas}")
-        print(f"Secciones sin salón (exceso de límite físico de 30 salones): {secciones_sin_salon}")
-=======
         print(f"Secciones huérfanas (falta de profesores): {secciones_huerfanas}")
         print(f"Secciones sin salón (exceso de capacidad): {secciones_sin_salon}")
->>>>>>> Stashed changes
         print(f"Materias cerradas exitosamente al 100%: {materias_cerradas}")
 
         try:
@@ -602,9 +541,6 @@ class SistemaGestor:
             clave = f"{b.dia} {b.rango_hora}"
             usados = capacidad_bloques.get(clave, 0)
             disponibles = 30 - usados
-<<<<<<< Updated upstream
-            print(f"  > {clave}: {disponibles} salones disponibles")
-=======
             print(f"  > {clave}: {disponibles} salones disponibles")
 
     def modificar_horarios(self):
@@ -866,4 +802,3 @@ class SistemaGestor:
             print("\nError interno: Intento de división por cero al calcular porcentajes.")
         except Exception as e:
             print(f"\nOcurrió un error inesperado al generar las gráficas: {e}")
->>>>>>> Stashed changes
